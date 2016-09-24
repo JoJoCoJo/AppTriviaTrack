@@ -22,7 +22,7 @@ public class variables  {
 
     public String ip="192.168.1.139";
 
-    public String Usu;
+    public String Usu="sa";
 
 
   /*  public String getUsu() {
