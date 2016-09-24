@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resultado"
+    android:background="@drawable/redondo">
+
+
+
+    <ImageButton
+
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbtnresult"
+        android:layout_width="296dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="133dp"
+        android:background="@drawable/botonespreguntas"
+        android:src="@drawable/abc_btn_check_to_on_mtrl_015" />
+
+
+
+    <com.example.programador2.menu.GifView
+        android:layout_width="150dp"
+        android:layout_height="145dp"
+        android:id="@+id/gifview"
+
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textSize="30px"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/lblresultado"
+        android:layout_width="298dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:gravity="center"/>
+
+
+</RelativeLayout>

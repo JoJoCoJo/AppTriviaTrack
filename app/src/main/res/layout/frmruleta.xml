@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papere">
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgruleta"
+        android:background="@drawable/ruleta"
+        android:adjustViewBounds="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ruletad" />
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="Girar"
+        android:id="@+id/btnGirar"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imgruleta"
+        android:layout_alignEnd="@+id/imgruleta"
+   android:background="@drawable/seletor_botao"/>
+</RelativeLayout>

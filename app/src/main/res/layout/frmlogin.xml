@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paperi">
+
+    <TextView
+        android:id="@+id/lblFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Trivia QS"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/txtContra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtUsuario"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblClienteAtender"
+        android:textSize="30dp"
+        android:padding="5dip"
+        android:background="@color/common_signin_btn_dark_text_default"
+        android:ems="10"
+
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnAceptarLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtContra"
+        android:background="@drawable/redondo"
+
+        android:text="@string/btnaceptarlogin"
+        android:textSize="50px"
+        android:layout_marginTop="40px"
+        android:textColor="@color/primary"
+        />
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblcliente"
+        android:ems="10"
+        android:textSize="30dp"
+        android:padding="5dip"
+        android:background="@color/common_signin_btn_dark_text_default"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lblClienteAtender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtUsuario"
+        android:layout_marginTop="18dp"
+        android:text="@string/lblpasword"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lblcliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblFecha"
+        android:layout_marginTop="20dp"
+        android:text="@string/lblusuario"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnEnviarRegistrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnEnviarRegistrase"
+        android:layout_below="@+id/btnAceptarLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/redondo"
+        android:textSize="50px"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/primary"
+        />
+
+</RelativeLayout>
