@@ -6,4 +6,8 @@
 
     <dimen name="corner_radius">5dp</dimen>
     <dimen name="layer_padding">10dp</dimen>
+    <dimen name="elevationtoolbar">4dp</dimen>
+    <dimen name="margenboron">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="alturadetarjeta1">230dp</dimen>
 </resources>

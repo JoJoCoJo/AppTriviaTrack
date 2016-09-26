@@ -20,9 +20,9 @@ import java.io.BufferedReader;
  */
 public class variables  {
 
-    public String ip="192.168.1.139";
+    public String ip="10.10.5.222";
 
-    public String Usu="sa";
+    public String Usu;
 
 
   /*  public String getUsu() {

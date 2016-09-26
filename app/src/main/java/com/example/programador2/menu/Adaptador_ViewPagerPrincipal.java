@@ -54,7 +54,7 @@ public class Adaptador_ViewPagerPrincipal extends FragmentPagerAdapter {
         switch (position) {
 
             case 0: // siempre empieza desde 0
-                return "Jugar";
+                return  "";
             case 1:
                 return "Invitaciones";
             case 2:
